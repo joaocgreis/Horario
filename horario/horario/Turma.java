@@ -20,7 +20,7 @@ public class Turma {
     
     static List<String> _todos_os_nomes = new LinkedList<String>();
     public static void confirma_nomes() {
-        System.out.println("Confirmar se todos os nomes de turnas s„o nomes de turmas:");
+        System.out.println("Confirmar se todos os nomes de turnas s√£o nomes de turmas:");
         for(String s : _todos_os_nomes){
             System.out.println(" - " + s);
         }

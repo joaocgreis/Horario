@@ -49,7 +49,7 @@ public class EmpilhadoraHorario extends Empilhadora<Character> {
         }
         
         separador('|');
-        adiciona(0, "Terça");
+        adiciona(0, "Terca");
         for(EntradaHorario eh : tds.entradas(3)){
             adiciona(eh.tempo().inicio().posicaoHorario()+1, eh.quadradinhoBonito());
         }

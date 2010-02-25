@@ -91,7 +91,7 @@ public class EntradaHorario {
             StringBuilder linha = new StringBuilder();
             if (_aulas.size() > i - 1) {
                 linha.append("| ");
-                int j; // para ser usado no for em baixo que completa a linha com espaços
+                int j; // para ser usado no for em baixo que completa a linha com espacos
                 if (_tipo.equals("T")) {  // para nao ter numeros nos labs e praticas
                     linha.append(_turnos.get(_aulas.get(i - 1)).toString());
                     linha.append("-");

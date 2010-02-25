@@ -105,7 +105,7 @@ public class Main {
         
         TipoDiaSeparador tds_t = new TipoDiaSeparador("T");
         horario.accept(tds_t);
-        output.println("Teóricas:");
+        output.println("Teoricas:");
         //for(EntradaHorario eh : tds_t.entradas(2)){
         //    System.out.println(eh.toString());
         //}
@@ -126,7 +126,7 @@ public class Main {
         
         TipoDiaSeparador tds_l = new TipoDiaSeparador("L");
         horario.accept(tds_l);
-        output.println("Laboratórios:");
+        output.println("Laboratorios:");
         EmpilhadoraHorario emp_l = new EmpilhadoraHorario(output);
         emp_l.empilha(tds_l);
         emp_l.escreve();

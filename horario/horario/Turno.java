@@ -24,7 +24,7 @@ public class Turno implements horario.visitor.HorarioVisitable {
 
     static List<String> _todos_os_nomes = new LinkedList<String>();
     public static void confirma_nomes() {
-        System.out.println("Confirmar se todos os nomes de turnos s„o nomes de turnos:");
+        System.out.println("Confirmar se todos os nomes de turnos s√£o nomes de turnos:");
         for(String s : _todos_os_nomes){
             System.out.println(" - " + s);
         }
